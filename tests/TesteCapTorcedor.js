@@ -32,10 +32,15 @@ module.exports = {
       .click('button[id=btnAvancarPasso3Novo]')
       .pause(1500)
       .assert.containsText('.divCampo', 'Forma de pagamento:')
-      //.end();
-  }
+  },
 
-  //..'Fluxo Captorcedor - Passo 3' : function (browser) {
-  	// body...
-  
+  'Fluxo Captorcedor - Passo 3' : function (browser) {
+  	browser
+  	 .click('select[id="ddlBanco"] option[value="104"]')
+  	 .setValue('input[id=agencia]', '0612')
+  	 .setValue('input[id=txtconta]', '00004372')
+  	 .setValue('input[id=dv]', '4')
+  	 .click('select[id="ddlTipoConta"] option[value="001"]')
+  	 .end();
+  }
 }; 
