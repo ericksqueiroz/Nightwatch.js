@@ -5,14 +5,18 @@
 
   <testsuite name="TesteCapTorcedor"
     errors="0" failures="0" hostname="" id="" package="TesteCapTorcedor" skipped="0"
-    tests="2" time="50.84" timestamp="Wed, 03 Jan 2018 20:57:09 GMT">
+    tests="2" time="49.89" timestamp="Thu, 04 Jan 2018 18:27:05 GMT">
   
-    <testcase name="Fluxo Odonto - Passo 1" classname="TesteCapTorcedor" time="35.18" assertions="1">
+    <testcase name="Fluxo Captorcedor - Passo 1" classname="TesteCapTorcedor" time="24.90" assertions="2">
+
+    
 
     
     </testcase>
   
-    <testcase name="Fluxo Odonto - Passo 2" classname="TesteCapTorcedor" time="15.67" assertions="0">
+    <testcase name="Fluxo Captorcedor - Passo 2" classname="TesteCapTorcedor" time="24.99" assertions="1">
+
+    
     </testcase>
   
 

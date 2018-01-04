@@ -40,8 +40,14 @@
     "chrome" : {
       "desiredCapabilities": {
         "browserName": "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
         "chromeOptions" : {
-          "args" : ["--no-sandbox"]
+          "args" : [
+            "--no-sandbox", 
+            "--disable-infobars", 
+            "--headless"
+          ]
         },
         "acceptSslCerts" : true
     },
